@@ -9,4 +9,5 @@ func main() {
 	fmt.Println("FeatureA")
 	fmt.Println("FEATURE A FIX FIX")
 	fmt.Println("FeatureB")
+	fmt.Println("Feature B FIX")
 }
