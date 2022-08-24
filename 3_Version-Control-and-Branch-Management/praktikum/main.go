@@ -7,6 +7,8 @@ func main() {
 	fmt.Println("A")
 	fmt.Println("B")
 	fmt.Println("FeatureA")
+<<<<<<< Updated upstream
 	fmt.Println("FEATURE A FIX FIX")
-	fmt.Println("FeatureB")
+>>>>>>> Stashed changes
+	fmt.Println("FeatureB")	
 }
