@@ -16,6 +16,6 @@ func main() {
 	} else if grade >= 0 && grade <= 34 {
 		fmt.Println("E")
 	} else {
-		fmt.Println("Nilai invalid")
+		fmt.Println("Nilai Invalid")
 	}
 }
