@@ -32,4 +32,8 @@ func powNew(x, n int) int {
 
 func main() {
 	fmt.Println(pow(2, 3))
+	fmt.Println(pow(5, 3))
+	fmt.Println(pow(10, 3))
+	fmt.Println(pow(2, 5))
+	fmt.Println(pow(7, 3))
 }
