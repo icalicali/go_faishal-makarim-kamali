@@ -1,12 +1,28 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func primeNumber(number int) bool {
 	if number == 1 {
 		return false
 	}
 	for i := 2; i < number; i++ {
+		if number%i == 0 {
+			return false
+		}
+	}
+	return true
+}
+
+func primeNew(number int) bool {
+	if number%2 == 0 {
+		return false
+	}
+
+	for i := 3; i < int(math.Sqrt(float64(number))); i += 2 {
 		if number%i == 0 {
 			return false
 		}
