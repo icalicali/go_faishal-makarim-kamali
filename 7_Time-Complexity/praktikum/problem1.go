@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//
 func primeNumber(number int) bool {
 	if number == 1 {
 		return false

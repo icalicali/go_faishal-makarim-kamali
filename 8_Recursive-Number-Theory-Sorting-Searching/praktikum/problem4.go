@@ -9,7 +9,7 @@ func main() {
 	fmt.Println(MaxSequence([]int{-2, -5, 6, -2, -3, 1, 6, -6}))    // 8
 	fmt.Println(MaxSequence([]int{-2, -5, 6, 2, -3, 1, 6, -6}))     // 12
 }
-
+//
 func MaxSequence(arr []int) int {
 	var sum int = 0
 

@@ -13,7 +13,7 @@ func main() {
 		fmt.Println(letter, ":", freq)
 	}
 }
-
+//
 func getFrequencies(sentence string, channel chan map[string]int) {
 	var frequencies map[string]int = map[string]int{}
 

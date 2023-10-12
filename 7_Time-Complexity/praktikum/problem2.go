@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 )
-
+//
 func pow(x, n int) int {
 	var result int = 1
 

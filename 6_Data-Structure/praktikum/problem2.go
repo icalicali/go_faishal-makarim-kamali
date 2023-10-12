@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 )
-
+//
 func munculSekali(angka string) []int {
 	var result []int
 	var freq map[string]int = map[string]int{}

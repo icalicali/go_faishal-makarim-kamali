@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//
 func main() {
 	for bil := 1; bil <= 50; bil++ {
 		i := 0

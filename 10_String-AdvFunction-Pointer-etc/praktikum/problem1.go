@@ -18,7 +18,7 @@ func Compare(a, b string) string {
 
 	return ""
 }
-
+//
 func main() {
 	fmt.Println(Compare("AKA", "AKASHI"))     // AKA
 	fmt.Println(Compare("KANGOORO", "KANG"))  // KANG

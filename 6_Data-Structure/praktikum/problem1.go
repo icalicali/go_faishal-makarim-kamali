@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//
 func ArrayMerge(arrayA, arrayB []string) []string {
 
 	arrayC := append(arrayA, arrayB...)

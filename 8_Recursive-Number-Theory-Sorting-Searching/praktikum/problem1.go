@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//
 func main() {
 	fmt.Println(primeX(1))  // 2
 	fmt.Println(primeX(5))  // 11

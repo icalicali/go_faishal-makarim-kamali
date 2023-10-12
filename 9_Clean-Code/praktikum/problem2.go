@@ -8,7 +8,7 @@ type kendaraan struct {
 type mobil struct {
 	kendaraan
 }
-
+//
 func (m *mobil) berjalan() {
 	m.tambahkecepatan(10)
 }

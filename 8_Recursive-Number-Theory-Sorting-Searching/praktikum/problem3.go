@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//
 func main() {
 	primaSegiEmpat(2, 3, 13)
 	/*

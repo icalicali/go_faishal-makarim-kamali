@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 }
-
+//
 func FindMinAndMax(arr []int) {
 	var minimum int = arr[0]
 	var maximum int = arr[0]
